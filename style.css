@@ -1,0 +1,54 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  background-color: #001;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+h1,
+h2 {
+  color: #bbbbff;
+  text-align: center;
+}
+
+form {
+  text-align: justify;
+}
+
+#css_Test {
+  border: 4px solid gold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 42px;
+  font-weight: bolder;
+  background-color: rebeccapurple;
+  width: 400px;
+  padding-left: 180px;
+}
+
+a {
+  color: aquamarine;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+a:hover,
+a:active {
+  color: aqua;
+}
+
+table {
+  border: 2px solid snow;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid snow;
+}

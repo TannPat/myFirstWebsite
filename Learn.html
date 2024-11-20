@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="TanPat" />
+  <meta name="description" content="This page has all the things I'm learning how to create as I learn HTML" />
+  <title>Roadmap</title>
+  <link rel="icon" href="C:\Users\Tanish Patil\Downloads\road.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <article id="intro">
+    <h1>Hello World!</h1>
+    <br />
+    <h2><a href="about.html" target="_blank">I</a>'m relearning HTML</h2>
+    <br />
+    <abbr title="Road"><img src="C:\Users\Tanish Patil\Downloads\road.jpg" alt="road" height="120" width="240" /></abbr>
+    <h3>Roadmap</h3>
+    <p>
+      This is for Scratch => <abbr title="Front-End"><em>FE</em></abbr> =>
+      <abbr title="Full-Stack"><strong>FS</strong></abbr>
+      articles:-
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#lists">Roadmap</a></li>
+      <li><a href="#Table">Table with courses</a></li>
+      <li><a href="#Input">Tell me more about yourself!</a></li>
+    </ol>
+    </p>
+  </article>
+  <hr />
+  <article id="lists">
+    <ol>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+    </ol>
+    <ul>
+      <li>Basic Prompt Engineering</li>
+      <li>Python</li>
+    </ul>
+    <dl>
+      <dt>Git & GitHub</dt>
+      <dd>Helps organise codes</dd>
+      <dt>mySQL</dt>
+      <dd>helps SQL stuff</dd>
+    </dl>
+  </article>
+  <hr>
+  <article id="Table">
+    <table>
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Topic</th>
+          <th>Course</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>TypeScript</td>
+          <td><a href="https://youtu.be/30LWjhZzg50?si=_VbHi1uvlXckVAxN" target="_blank">FreeCodeCamp</a></td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>PHP</td>
+          <td><a href="https://youtu.be/OK_JCtrrv-c?si=RJ2b4QWDE3fQX7g7" target="_blank">FreeCodeCamp</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+  <hr>
+  <article id="Input">
+    <h2>Tell Me About Yourself, Fellow Enthusiast!</h2>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>About You!</legend>
+        <label for="Name">
+          Full Name:
+        </label>
+        <input type="text" placeholder="Full Name" name="name" id="Name" autocomplete="on" required />
+        <br>
+        <label for="emailAddress">
+          Email Address:
+        </label>
+        <input type="email" placeholder="abc@xmail.com" id="emailAddress" autocomplete="on" required>
+        <br>
+        <label for="dateOfBirth">
+          Date of Birth:
+        </label>
+        <input type="date" name="dateOfBirth" id=dateOfBirth>
+        <br>
+        <label for="password">
+          Password:
+        </label>
+        <input type="password" placeholder="Password" name="password" id="password" required>
+        <br>
+        <label for="nationality">
+          Nationality:
+        </label>
+        <input list="countries" placeholder="Nationality" name="nationality" id="nationality">
+        <datalist id="countries">
+          <option>India</option>
+          <option>USA</option>
+          <option>Japan</option>
+          <option>Germany</option>
+        </datalist>
+        <br>
+        <label for="colour">
+          Favourite colour:
+        </label>
+        <select name=colour id="colour">
+          <option value="default" selected>Choose a Colour</option>
+          <optgroup label="Colours">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="cyan">Cyan</option>
+            <option value="other">Other</option>
+          </optgroup>
+        </select>
+        <br>
+        <button type="reset">Reset</button>
+        <br>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </article>
+  <hr>
+</body>
+
+</html>
